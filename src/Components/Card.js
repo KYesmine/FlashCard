@@ -6,7 +6,7 @@ import CardFront from "./CardFront";
 
 function Card({ isFlipped, handleClick, current }) {
   return (
-    <ReactCardFlip
+    <ReactCardFlip 
       isFlipped={isFlipped}
       flipDirection="horizontal"
       containerClassName="card"

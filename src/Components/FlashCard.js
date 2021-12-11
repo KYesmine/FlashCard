@@ -1,8 +1,12 @@
 import React, { useState } from "react";
-import Card from "./Card";
 import CardController from "./CardController";
 import QuestionTracker from "./QuestionTracker";
+import Card from "./Card";
 import data from "../data";
+
+// TODO Implement Perfect/Good/Not Good/Bad Controllers
+// TODO Getting questions by weighted probability
+// Perfect => 1 / Good => 2 / Not Good => 3 / Bad => 4
 
 function FlashCard() {
   const [currentQuestion, setCurrentQuenstion] = useState(0);
