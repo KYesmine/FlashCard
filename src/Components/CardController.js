@@ -1,13 +1,13 @@
-import { Button } from "@chakra-ui/react";
+import { Box, Button } from "@chakra-ui/react";
 import React from "react";
 
 function CardController({ handleClick }) {
   return (
-    <div className="card-controller">
+    <Box className="card-controller" d="flex" justifyContent="flex-end">
       <Button mt="4" colorScheme="teal" variant="solid" onClick={handleClick}>
         Next
       </Button>
-    </div>
+    </Box>
   );
 }
 

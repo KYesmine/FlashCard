@@ -1,5 +1,5 @@
-.container {
-  width: 90%;
-  max-width: 750px;
-  margin: 100px auto 0;
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.app .title {
+  font-family: "Pacifico", cursive;
 }

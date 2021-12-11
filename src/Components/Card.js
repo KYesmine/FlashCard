@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactCardFlip from "react-card-flip";
 import "./Card.css";
 import CardBack from "./CardBack";
